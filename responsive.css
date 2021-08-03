@@ -1,0 +1,39 @@
+@media screen and (max-width: 576px){
+    h1 {
+        text-align: center;
+    }
+    .header {
+        display: block;
+    }
+    div.rootsp {
+        width: 160px;
+        margin-left: 60px;
+    }
+    .rightsp {
+        margin-left: 170px;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px){
+    .header {
+        margin-bottom: 20px;
+    }
+.sp {
+    display: none;
+}
+form {
+    width: 500px;
+    margin-top: 100px;
+    margin-left: -180px;
+}
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+
+.sp {
+    display: none;
+}
+.cart {
+    left: -220px;
+}
+}
