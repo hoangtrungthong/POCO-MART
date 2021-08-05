@@ -1,0 +1,30 @@
+/* Variable css */
+@import "../variable.css";
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+}
+i {
+    font-size: 20px;
+}
+img{
+    max-width: 100%;
+}
+p {
+    font-size: 16px;
+    text-transform: capitalize;
+}
+a {
+    text-transform: capitalize;
+    display: block;
+}
+a:hover {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+    margin-bottom: 0;
+}
