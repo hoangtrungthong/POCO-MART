@@ -1,0 +1,29 @@
+.btn {
+    top: 0px;
+    right: 0px;
+    background: none;
+    border-style: none;
+}
+
+.cart {
+    width: 360px;
+    height: 200px;
+    right: 0px;
+    top: 45px;
+    text-align: center;
+    padding-top: 10px;
+    background-color: antiquewhite;
+    z-index: 11;
+    display: none;
+    margin: 15px;
+    border-radius: 5px;
+}
+
+.cart i {
+    font-size: 111px;
+    color: rgb(245, 94, 94);
+}
+
+.cart-shop:hover .cart {
+    display: block;
+}
