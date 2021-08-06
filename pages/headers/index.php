@@ -34,21 +34,13 @@
         <div class="rightsp d-inline-flex col-lg-2 col-xl-2 col-md-2 col-sm-3" style="height: 60px; line-height: 60px;">
             <a href="" class=" mr-4" style="color: black; ">
                 <i class="far fa-heart position-relative" data-toggle="tooltip" title="sản phẩm yêu thích">
-                    <span class="badge position-absolute" style="top: -10px;
-                    left: 15px;
-                    color: white;
-                    background: red;
-                    border-radius: 50%;">0</span>
+                    <span class="badge position-absolute numb" >0</span>
                 </i>
             </a>
             <div class="cart-shop ">
                 <a href="" class=" mr-4 " style="color: black;">
                     <i class="fas fa-shopping-cart position-relative " data-toggle="tooltip" title="giỏ hàng">
-                        <span class="badge position-absolute" style="top: -10px;
-                        left: 15px;
-                        color: white;
-                        background: red;
-                        border-radius: 50%;">0</span>
+                        <span class="badge position-absolute numb" >0</span>
                     </i>
                     <div class="position-absolute cart">
                         <i class="fas fa-shopping-bag"></i>
@@ -58,11 +50,7 @@
             </div>
             <a href="" class="" style="color: black;">
                 <i class="fas fa-random position-relative" data-toggle="tooltip" title="so sánh sản phẩm">
-                    <span class="badge position-absolute" style="top: -10px;
-                    left: 15px;
-                    color: white;
-                    background: red;
-                    border-radius: 50%;">0</span>
+                    <span class="badge position-absolute numb">0</span>
                 </i>
             </a>
         </div>

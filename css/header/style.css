@@ -27,3 +27,11 @@
 .cart-shop:hover .cart {
     display: block;
 }
+
+.numb {
+    top: -10px;
+    left: 15px;
+    color: white;
+    background: red;
+    border-radius: 50%;
+}
