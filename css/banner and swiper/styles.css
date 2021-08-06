@@ -5,7 +5,6 @@
 #banner img {
     border-radius: 10px;
 }
-
 .swiper-slide {
     text-align: center;
     font-size: var(--font-size);
@@ -39,6 +38,7 @@
 .swiper-button-prev,.swiper-button-next {
     border-radius: 50%;
     background: var(--white);
+    color: var(--black);
     height: 30px;
     width: 30px;
     top: 43%;

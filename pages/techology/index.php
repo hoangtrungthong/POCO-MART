@@ -23,7 +23,6 @@
                     <img src="//bizweb.dktcdn.net/100/429/689/themes/825316/assets/banner_2.jpg?1625026657877" alt="">
                 </a>
             </div>
-            
         </div>
         <div>
             <div>

@@ -44,6 +44,8 @@
 
 .menu-pdt:hover  .phone-std {
     display: block!important;
+    transform: skewX(13deg)!important;
+    transition: transform 1s ease-in;
 }
 
 .phone-sp {

@@ -9,40 +9,40 @@
     <?php require 'vendor/styles.php' ?>
 </head>
 <body>
+    <!-- header -->
+    <?php require 'pages/headers/index.php' ?>
+
+    <!-- menu -->
+    <?php require 'pages/menu/index.php' ?>
+
     <div>
-        <!-- header -->
-        <?php require 'pages/headers/index.php' ?>
-
-        <!-- menu -->
-        <?php require 'pages/menu/index.php' ?>
-
-
         <div class="container">
-            <!-- banner -->
-            <?php require 'pages/banner/index.php' ?>
-            
-            <!-- swiper -->
-            <?php require 'pages/swiper/index.php' ?>
-            
-            <!-- products -->
-            <?php require 'pages/products/index.php' ?>
-
-            <!-- techology -->
-            <?php require 'pages/techology/index.php' ?>
-
-            <!-- fashion_products -->
-            <?php require 'pages/fashion/index.php' ?>
-
-            <!-- suggest -->
-            <?php require 'pages/suggest/index.php' ?>
-
-            <!-- news -->
-            <?php require 'pages/news/index.php' ?>
+        <!-- banner -->
+        <?php require 'pages/banner/index.php' ?>
+        
+        <!-- swiper -->
+        <?php require 'pages/swiper/index.php' ?>
+        
+        <!-- products -->
+        <?php require 'pages/products/index.php' ?>
         </div>
+        <div class="container">
+        <!-- techology -->
+        <?php require 'pages/techology/index.php' ?>
 
-        <!-- footer -->
-        <?php require 'pages/footer/index.php' ?>
+        <!-- fashion_products -->
+        <?php require 'pages/fashion/index.php' ?>
+
+        <!-- suggest -->
+        <?php require 'pages/suggest/index.php' ?>
+
+        <!-- news -->
+        <?php require 'pages/news/index.php' ?>
+        </div>
     </div>
+
+    <!-- footer -->
+    <?php require 'pages/footer/index.php' ?>
 </body>
 <?php require 'vendor/scripts.php' ?>
 </html>
