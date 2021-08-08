@@ -44,8 +44,6 @@
 
 .menu-pdt:hover  .phone-std {
     display: block!important;
-    transform: skewX(13deg)!important;
-    transition: transform 1s ease-in;
 }
 
 .phone-sp {
@@ -140,7 +138,6 @@
 .phoness:hover .dropdown-menu {
     display: block;
 }
-
 .product:hover .produc {
     display: block;
 }
@@ -185,7 +182,6 @@
     top: 30%;
     left: 105%;
     color: var(--white);
-    transition: transform 2s ease-in-out;
 }
 
 #up{
@@ -206,7 +202,6 @@
 .newss:hover #up{
     display: block;
     color: var(--orange);
-    transform: rotate(360deg);
 }
 
 .newss:hover #down{
@@ -217,7 +212,6 @@
     display: block;
     color: var(--orange);
 }
-
 .product:hover #down{
     display: none;
 }

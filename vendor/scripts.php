@@ -10,3 +10,4 @@
 <script src="js/menu.js"></script>
 <script src="js/swiper.js"></script>
 <script src="js/products.js"></script>
+<script src="js/techology.js"></script>

@@ -1,0 +1,32 @@
+.fashion_products >div:last-child > div:first-child {
+    width: 45%;
+}
+.fashion_products >div:last-child > div:not(div:first-child) {
+    width: 23%!important;
+    margin-bottom: 2%;
+}
+.fashion_products >div:last-child > div:last-child > div {
+    width: unset!important;
+    
+}
+.fashion_products >div:last-child #banner {
+    margin: 0 4% 0 0!important;
+}
+.fashion_products >div:last-child div:not(div:first-child) > div:first-child {
+    position: relative;
+}
+.fashion_products>div:last-child div:not(div:first-child):hover #cart {
+    background-color: var(--red);
+    opacity: 1;
+    color: var(--white);
+}
+.fashion_products >div:last-child div:not(div:first-child) a img {
+    border-radius: 15px;
+}
+.fashion_products >div:last-child div:not(div:first-child):hover a img {
+    transform: scale(1.03);
+    transition: all 0.6s;
+}
+.fashion_products >div:last-child div:not(div:first-child) a img {
+    margin-bottom: 5px;
+}
