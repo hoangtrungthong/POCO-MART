@@ -15,8 +15,8 @@
     <!-- menu -->
     <?php require 'pages/menu/index.php' ?>
 
-    <div>
-        <div class="container">
+    
+    <div class="container">
         <!-- banner -->
         <?php require 'pages/banner/index.php' ?>
         
@@ -25,8 +25,7 @@
         
         <!-- products -->
         <?php require 'pages/products/index.php' ?>
-        </div>
-        <div class="container">
+
         <!-- techology -->
         <?php require 'pages/techology/index.php' ?>
 
@@ -38,8 +37,7 @@
 
         <!-- news -->
         <?php require 'pages/news/index.php' ?>
-        </div>
-    </div>
+    </div> 
 
     <!-- footer -->
     <?php require 'pages/footer/index.php' ?>

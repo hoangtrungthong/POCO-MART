@@ -21,11 +21,7 @@
                     <i class="fas fa-shopping-cart"></i>
                 </a>
                 <div>
-                    <div class="sale">
-                        <p>giảm 5%</p>
-                    </div>                                       
-                    <div class="border_left"></div>                                    
-                    <div class="border_right"></div> 
+                    <span class="sale">-5%</span>                                       
                     <div class="ico">
                         <a href="">
                             <i class="far fa-heart"></i>
@@ -52,11 +48,7 @@
                         <i  class="fab fa-hubspot"></i>
                     </a>
                 </div>
-                 <div class="sale d-none">
-                    <p> </p>
-                </div>
-                <div class="border_left d-none"></div>                                    
-                <div class="border_right d-none"></div>
+                <span class="sale d-none">-5%</span> 
                 <div class="ico">
                     <a href="">
                         <i class="far fa-heart"></i>
@@ -64,7 +56,7 @@
                     <a href="">
                         <i class="fas fa-signal"></i>
                     </a>
-                </div>
+                </div>    
             </div>
             <div class="swiper-slide">
                 <div>
@@ -82,11 +74,7 @@
                         <i  class="fab fa-hubspot"></i>
                     </a>
                 </div>
-                <div class="sale">
-                    <p>giảm 31%</p>
-                </div>
-                <div class="border_left"></div>                                    
-                <div class="border_right"></div>
+                <span class="sale">-31%</span> 
                 <div class="ico">
                     <a href="">
                         <i class="far fa-heart"></i>
@@ -112,11 +100,7 @@
                         <i  class="fab fa-hubspot"></i>
                     </a>
                 </div>
-                    <div class="sale">
-                        <p>giảm 20%</p>
-                    </div>
-                    <div class="border_left"></div>                                    
-                    <div class="border_right"></div>
+                <span class="sale">-20%</span> 
                 <div class="ico">
                     <a href="">
                         <i class="far fa-heart"></i>
@@ -142,11 +126,7 @@
                         <i  class="fab fa-hubspot"></i>
                     </a>
                 </div>
-                <div class="sale">
-                    <p>giảm 13%</p>
-                </div>
-                <div class="border_left"></div>                                    
-                <div class="border_right"></div>
+                <span class="sale">-30%</span> 
                 <div class="ico">
                     <a href="">
                         <i class="far fa-heart"></i>
@@ -170,11 +150,7 @@
                 <a id="cart" href="">
                     <i  class="fab fa-hubspot"></i>
                 </a>
-                <div class="sale">
-                    <p>giảm 19%</p>
-                </div>
-                <div class="border_left"></div>                                    
-                <div class="border_right"></div>
+                <span class="sale">-19%</span> 
                 <div class="ico">
                     <a href="">
                         <i class="far fa-heart"></i>
