@@ -11,3 +11,6 @@
 <link rel="stylesheet" href="css/products/styles.css">
 <link rel="stylesheet" href="css/techology/styles.css">
 <link rel="stylesheet" href="css/fashion_products/styles.css">
+<link rel="stylesheet" href="css/suggest/styles.css">
+<link rel="stylesheet" href="css/news/styles.css">
+<link rel="stylesheet" href="css/footer/styles.css">

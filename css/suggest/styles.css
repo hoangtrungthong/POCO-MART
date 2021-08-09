@@ -1,0 +1,35 @@
+.suggest > div:first-child {
+    width: 15%;
+    background-color: var(--red);
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+.suggest > div:first-child a {
+    color: var(--white);
+}
+.suggest > div:last-child {
+    padding: 0!important;
+    border: 2px solid var(--red);
+}
+.suggest .swiper-slide a {
+    width: 100%;
+    height: 100%;
+}
+.suggest .swiper-button-prev{
+    background: #ccc;
+    top: 7%;
+}
+.suggest > .swiper-button-next {
+    background: #ccc;
+    top: 7%;
+}
+.suggest > .swiper-button-prev{
+    left:94%
+}
+.suggest .price {
+    left: 30%;
+    bottom: 5%;
+}

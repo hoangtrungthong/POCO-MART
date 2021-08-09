@@ -35,3 +35,6 @@
     background: red;
     border-radius: 50%;
 }
+.pr-5, .px-5 {
+    padding-right: 100px!important;
+}

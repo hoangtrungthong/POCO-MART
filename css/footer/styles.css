@@ -1,0 +1,115 @@
+footer {
+    background-color: #24272E;
+    padding: 30px 0px 0 0;
+    margin: 40px 5px 0 0;
+}
+footer li a {
+    color: var(--white);
+    opacity: 0.5;
+}
+footer a:hover {
+    color: var(--orange);
+    opacity: 1;
+}
+footer div.container > div:first-child > div > a.head {
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    color: var(--white)!important;
+}
+footer div.container > div:first-child {
+    padding-bottom: 20px;
+    border-bottom: 1px groove var(--white);
+}
+footer > div.container > div {
+    padding-top: 30px!important;
+}
+footer h3 {
+    color: var(--white);
+    margin-bottom: 20px;
+}
+footer p {
+    color: #8b8e96;
+}
+footer > div.container > div:nth-child(2) {
+    padding-bottom: 40px;
+    border-bottom: 1px groove var(--white);
+}
+footer > div.container > div:nth-child(2) li {
+    color: #8b8e96;
+}
+footer .pr-5 {
+    padding-right: 6rem!important;
+}
+footer button.btn {
+    border-radius: 0px!important;
+    text-transform: capitalize;
+}
+footer .socials {
+    margin-top: 30px;
+}
+footer .socials a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: var(--red);
+    background-color: var(--white);
+    margin-right: 5px;
+}
+footer .socials a {
+    color: var(--red);
+    border-right: 5px solid  var(--red);
+    border-top: 2px solid transparent;
+    border-bottom: 3px solid transparent;
+    border-left: 5px solid  var(--red);
+}
+footer .socials a:hover {
+    border-right: 30px solid  var(--red);
+    border-left: 10px solid  var(--red);
+    color: var(--white);
+    transition: all 0.7s ease-in-out ;
+}
+footer .socials a:first-child {
+    color: #3B5998;
+    border-right: 5px solid #3B5998;
+    border-top: 2px solid transparent;
+    border-bottom: 3px solid transparent;
+    border-left: 5px solid #3B5998;
+}
+footer .socials a:first-child:hover {
+    border-right: 30px solid #3B5998;
+    border-left: 10px solid #3B5998;
+    color: var(--white);
+    transition: all 0.7s ease-in-out ;
+}
+footer .socials a:nth-child(2) {
+    color: #33C8FB;
+    border-right: 5px solid #33C8FB;
+    border-top: 2px solid transparent;
+    border-bottom: 3px solid transparent;
+    border-left: 5px solid #33C8FB;
+}
+footer .socials a:nth-child(2):hover {
+    border-right: 30px solid #33C8FB;
+    border-left: 10px solid #33C8FB;
+    color: var(--white);
+    transition: all 0.7s ease-in-out ;
+}
+footer a {
+    display: inline-block;
+}
+footer div.container > div:last-child {
+    font-size: 14px;
+}
+footer div.container > div:last-child > div:first-child a:hover {
+    color: var(--orange);
+}
+footer div.container > div:last-child > div:first-child a {
+    color: var(--white);
+}
+footer div.container > div:last-child > ul li {
+    display: inline-block;
+    margin-right: 10px;
+}

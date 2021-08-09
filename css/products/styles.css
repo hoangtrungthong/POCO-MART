@@ -117,7 +117,7 @@
 	transform: rotate(-20deg);
     position: absolute;
     top: 0;
-    left:0;
+    left:5%;
     font-size: 14px;
 	animation: beat 1s ease infinite alternate;
 }
