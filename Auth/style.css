@@ -1,0 +1,44 @@
+.auth{
+    background: url("../images/home-bg.jpg") no-repeat;
+    font-family: 'Dancing Script', cursive;
+}
+.auth-form {
+    margin-top: 50px;
+}
+.auth-form > form > p {
+    margin-top: 30px;
+}
+.auth-form > form > p > a {
+    opacity: 70%;
+}
+.auth-form > form > p > a:hover {
+    text-decoration: none;
+    opacity: 1;
+}
+.auth-form> form  >div {
+    margin-top: 30px;
+}
+form {
+    background-color: antiquewhite;
+    text-align: center;
+    padding: 20px 20px;
+    width: 450px;
+    margin: 0 auto;
+    font-size: 25px;
+}
+.form-control , .btn {
+    font-size: 20px;
+    border-radius: 10px;
+}
+.btn-primary {
+    background: white;
+    border-style: none;
+    color: #635b5b;
+    width: 70%;
+    margin-top: 20px;
+}
+.btn-primary:hover {
+    background-color: cornsilk;
+    color: black;
+    transition: all 0.5s;
+}

@@ -1,3 +1,8 @@
+<?php
+include("config/mysql_db.php");
+session_start();
+error_reporting(0);
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,37 +15,37 @@
 </head>
 <body>
     <!-- header -->
-    <?php require 'pages/headers/index.php' ?>
+    <?php require 'pages/home/headers/index.php' ?>
 
     <!-- menu -->
-    <?php require 'pages/menu/index.php' ?>
+    <?php require 'pages/home/menu/index.php' ?>
 
     
     <div class="container">
         <!-- banner -->
-        <?php require 'pages/banner/index.php' ?>
+        <?php require 'pages/home/banner/index.php' ?>
         
         <!-- swiper -->
-        <?php require 'pages/swiper/index.php' ?>
+        <?php require 'pages/home/swiper/index.php' ?>
         
         <!-- products -->
-        <?php require 'pages/products/index.php' ?>
+        <?php require 'pages/home/products/index.php' ?>
 
         <!-- techology -->
-        <?php require 'pages/techology/index.php' ?>
+        <?php require 'pages/home/techology/index.php' ?>
 
         <!-- fashion_products -->
-        <?php require 'pages/fashion/index.php' ?>
+        <?php require 'pages/home/fashion/index.php' ?>
 
         <!-- suggest -->
-        <?php require 'pages/suggest/index.php' ?>
+        <?php require 'pages/home/suggest/index.php' ?>
 
         <!-- news -->
-        <?php require 'pages/news/index.php' ?>
+        <?php require 'pages/home/news/index.php' ?>
     </div> 
 
     <!-- footer -->
-    <?php require 'pages/footer/index.php' ?>
+    <?php require 'pages/home/footer/index.php' ?>
 </body>
 <?php require 'vendor/scripts.php' ?>
 </html>

@@ -22,13 +22,13 @@ a {
     display: block;
 }
 a:hover {
-    text-decoration: none;
+    text-decoration: none!important;
 }
 ul {
     list-style: none;
-    margin-bottom: 0;
-}
-dl, ol, ul {
     margin-top: 0;
     margin-bottom: 0!important; 
+}
+li {
+    text-transform: capitalize;
 }

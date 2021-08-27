@@ -1,0 +1,23 @@
+.introduce {
+    margin-top: 40px;
+}
+.introduce > div:first-child {
+    padding-bottom: 30px;
+    border-bottom: 3px solid var(--red);
+}
+.introduce h2 {
+    margin-top: 40px;
+}
+.introduce > div > a {
+    display: inline-block!important;
+    color: var(--black)
+}
+.introduce > div > a.actives {
+    color: var(--orange)!important;
+}
+.introduce > div > a:hover {
+    color: var(--orange);
+}
+.introduce > div:last-child {
+    margin: 20px 0 40px 0;
+}
