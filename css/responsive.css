@@ -13,6 +13,9 @@
     .rightsp {
         margin-left: 170px;
     }
+    .menu-pdt > div > a {
+        display: none;
+    }
 }
 
 @media screen and (min-width: 576px) and (max-width: 768px)
@@ -33,11 +36,17 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px)
-    {
-        .sp {
-            display: none;
-        }
-        .cart {
-            left: -220px;
+{
+    .sp {
+        display: none;
+    }
+    .cart {
+        left: -220px;
+    }
+    .menu-pdt > div > a {
+        display: none;
+    }
+    .menusp > ul {
+        margin-left: 5px;
     }
 }

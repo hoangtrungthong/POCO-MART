@@ -12,8 +12,7 @@
         </ul>
     </div>        
     <div class="row ">
-        <div class="row col-lg-3">
-            
+        <div class="row col-lg-3">   
             <div>
                 <a href="index.html">
                     <img src="//bizweb.dktcdn.net/100/429/689/themes/825316/assets/banner_1.jpg?1625026657877" alt="Hình Ảnh">

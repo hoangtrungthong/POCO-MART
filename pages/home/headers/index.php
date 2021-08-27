@@ -6,7 +6,7 @@
                     <img src="//bizweb.dktcdn.net/100/429/689/themes/825316/assets/logo.png?1625026657877" alt="hình ảnh">
                 </a>
             </h1>
-        </div>    
+        </div>
         <div class="centerform row d-inline-flex align-items-center col-lg-8 col-xl-7 col-md-7 col-sm-5">
             <div class="col-xl-6 col-lg-6 col-md-8 col-sm-8">
                 <form action="" method="GET" class=" position-relative">
@@ -20,27 +20,33 @@
                 <a data-toggle="tooltip" title="CSKH" href="tel:0345236493"><i class="fas fa-phone " style="color: red;font-size: 30px; "></i></a>
                 <div class="sp">
                     <p class="mb-0">tư vấn hỗ trợ</p>
-                    <a class="text-danger"  href="tel:0345236493">0345236493</a>
+                    <a class="text-danger" href="tel:0345236493">0345236493</a>
                 </div>
             </div>
             <div class="rootsp d-flex align-items-center justify-content-between col-xl-3 col-lg-3 col-md-2 col-sm-2">
-                <a data-toggle="tooltip" title="Đăng Nhập" href="form.php"><i class="far fa-user-circle" style="color: red; font-size: 30px;"></i></a>
+                <a data-toggle="tooltip" title="Đăng Nhập" href="Auth/login.php"><i class="far fa-user-circle" style="color: red; font-size: 30px;"></i></a>
                 <div class="sp">
                     <p class="mb-0">xin chào!</p>
-                    <a class="text-danger" href="form.php">đăng nhập</a>
-                </div>    
+                    <?php 
+                        if ($_SESSION["username"]) {
+                            echo $_SESSION["username"] . '<a href="Auth/logout.php?logout=1">Thoát</a>"';
+                        } else {
+                            echo '<a class="text-danger" href="Auth/login.php">đăng nhập</a>';
+                        }
+                    ?>
+                </div>
             </div>
         </div>
         <div class="rightsp d-inline-flex col-lg-2 col-xl-2 col-md-2 col-sm-3" style="height: 60px; line-height: 60px;">
             <a href="" class=" mr-4" style="color: black; ">
                 <i class="far fa-heart position-relative" data-toggle="tooltip" title="sản phẩm yêu thích">
-                    <span class="badge position-absolute numb" >0</span>
+                    <span class="badge position-absolute numb">0</span>
                 </i>
             </a>
             <div class="cart-shop ">
                 <a href="" class=" mr-4 " style="color: black;">
                     <i class="fas fa-shopping-cart position-relative " data-toggle="tooltip" title="giỏ hàng">
-                        <span class="badge position-absolute numb" >0</span>
+                        <span class="badge position-absolute numb">0</span>
                     </i>
                     <div class="position-absolute cart">
                         <i class="fas fa-shopping-bag"></i>

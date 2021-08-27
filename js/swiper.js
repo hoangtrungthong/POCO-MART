@@ -15,3 +15,8 @@ var swiper =
             },
         }
     );
+    function reinitSwiper(swiper) {
+        setTimeout(function () {
+         swiper.update();
+        }, 500);
+      }

@@ -4,7 +4,7 @@
     </div>
     <div class="swiper-button-prev"></div>
         <div class="swiper-button-next"></div>
-    <div class="swiper-container">
+    <div class="swiper swiper-container">
         <div class="swiper-wrapper phone_menu">
             <div class="swiper-slide"> 
                 <div>

@@ -1,0 +1,13 @@
+.menu .menu_bar {
+    bottom: 0;
+    z-index: 99;
+    background: var(--white);
+    text-align: center;
+}
+.gio > a{
+    margin-top: -10px;
+    margin-top: -20px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    background: var(--white);
+}

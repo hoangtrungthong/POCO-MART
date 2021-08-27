@@ -34,7 +34,6 @@
     padding-top: 50px;
     padding-bottom: 50px;
 }
-
 .swiper-button-prev,.swiper-button-next {
     border-radius: 50%;
     background: var(--white);
@@ -44,7 +43,6 @@
     top: 43%;
     box-shadow: 0 1px 12px 0 rgb(0 0 0 / 12%);
 }
-
 .swiper-button-next:after, .swiper-container-rtl .swiper-button-prev:after {
     font-size: var(--font-size);
     color: var(--black);

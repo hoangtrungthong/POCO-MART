@@ -4,7 +4,7 @@
             <img src="//bizweb.dktcdn.net/100/429/689/themes/825316/assets/banner_3_tab.jpg?1625026657877   " alt="">
         </a>
     </div>
-    <div class="swiper-container">
+    <div class="swiper swiper-container">
         <div class="swiper-wrapper phone_menu">
             <div class="swiper-slide">
                 <div>
